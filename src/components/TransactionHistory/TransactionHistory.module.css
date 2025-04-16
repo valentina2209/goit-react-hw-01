@@ -1,0 +1,51 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .thead {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .rowEven {
+    background-color: #f9f9f9;
+  }
+  
+  .rowHover:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Стилі для типів транзакцій */
+  .typeInvoice {
+    color: #007bff;
+    font-weight: 500;
+  }
+  
+  .typePayment {
+    color: #28a745;
+    font-weight: 500;
+  }
+  
+  .typeWithdrawal {
+    color: #dc3545;
+    font-weight: 500;
+  }
+  
+  .typeDeposit {
+    color: #6f42c1;
+    font-weight: 500;
+  }
